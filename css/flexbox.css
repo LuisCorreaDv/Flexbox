@@ -28,3 +28,11 @@
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
 }
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    /* Limit of 250px for each column */
+    height: 250px;
+    flex-wrap: wrap;
+}
